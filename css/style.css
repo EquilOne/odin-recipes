@@ -16,3 +16,9 @@ body {
   width: 100%;
   height: auto;
 }
+
+.recipe-description {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
