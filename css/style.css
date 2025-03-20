@@ -1,15 +1,51 @@
 body {
   background-color: #f5e9d3;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #013220;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #013220;
+  font-weight: bold;
+  padding: 0.25em 1em;
+  display: inline-block;
+}
+
+a:hover {
+  color: #013220;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #818181;
+  text-decoration: none;
 }
 
 .site-title {
   text-align: center;
-  font-family: "Italiana", serif;
+  font-family: 'Italiana', serif;
   background-color: #013220;
   color: #f5e9d3;
   padding: 10px;
+}
+
+.primary-nav {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.primary-nav ul {
+  padding: 0;
+}
+
+.primary-nav li {
+  margin: 0 5px;
+  list-style: none;
 }
 
 .recipe-img {
